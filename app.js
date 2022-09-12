@@ -10,7 +10,7 @@ let direction;
 
 next.addEventListener('click',function(){
     slider.appendChild(slider.firstElementChild);
-    slider.style.transform='translate(-25%)';
+    slider.style.transform='translate(-20%)';
     
    direction = -1;
   carousel.style.justifyContent = 'flex-start';
@@ -24,7 +24,8 @@ prev.addEventListener('click', function() {
     slider.appendChild(slider.firstElementChild);
   direction=1;
    
-  slider.style.transform = 'translate(25%)';  
+  slider.style.transform = 'translate(30%)';  
+  slider.style.justifyContent = 'padding-left(5em)';
  
   
 });
