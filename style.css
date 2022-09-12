@@ -515,7 +515,7 @@ width: 100%;
     margin-top: -20px;
     margin-bottom: -60px;
     width: 1230px;
-    margin-left: 2em;
+    margin-left: 1.7em;
     
     
     
@@ -652,9 +652,7 @@ padding: 42px 38px 20px 41px;
     font: 100 37px/40px "Source Sans Pro", "Arial", "Helvetica", sans-serif;
 
 }
-.banner{
-    margin-left:-2.4em;
-}
+
 .banner .title {
     color: #6a6a6a;
     display: block;
@@ -1124,13 +1122,13 @@ padding: 42px 38px 20px 41px;
 
   
   .products-1 .myslides{
-    height: 300px;
-    width: 340px;
-    left: 0;
-    padding: 0;
-    
-    
-}
+  
+        height: 260px;
+        width: 250px;
+        left: 0px;
+        padding: 0;
+        margin-left: 10px;
+    }
 
 
   
@@ -1265,6 +1263,10 @@ padding: 42px 38px 20px 41px;
   
   
     @media only screen and (max-width: 1861px) and (min-width:1600px) {
+        body{
+   overflow-x: hidden;
+}
+
         .row{
             width: 1600px;
         }
@@ -1298,6 +1300,17 @@ padding: 42px 38px 20px 41px;
             width: 1600px;
             margin-left: 1.5em;
             
+        }
+        .products-1{
+            padding: 0 15px 0 25px
+        }
+        .products-1 .myslides {
+            height: 311px;
+            width: 346px;
+            /* left: 0; */
+            padding: 0;
+            margin-left: -2.5em;
+           
         }
         .card{
             width: 400px;
@@ -1383,12 +1396,12 @@ padding: 42px 38px 20px 41px;
         }
         .parentproduct{
             width: 1600px;
-            margin-left: 100px;
-        padding-left: 140px;
+            margin-left: 2px;
+        padding-left: 150px;
         }
         .products-1 .myslides {
-            height: 286px;
-            width: 284px;
+            height: 295px;
+            width: 310px;
             left: 0;
             padding: 0;
         }
@@ -1408,7 +1421,7 @@ padding: 42px 38px 20px 41px;
     .subfooter{
         width: 80%;
         justify-content: center;
-     
+     margin-right: 25px;
         
 
         
@@ -1421,7 +1434,7 @@ padding: 42px 38px 20px 41px;
         margin-left: 180px;
     }
     }
-    @media only screen and (max-width: 1599px) and (min-width:1380px) {
+    @media only screen and (max-width: 1599px) and (min-width:1450px) {
         .banner{
             margin-left: 8.5em;
         }
@@ -1450,6 +1463,7 @@ padding: 42px 38px 20px 41px;
         margin-left: 1em;
     }
 }
+
     
         
     
