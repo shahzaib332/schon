@@ -1633,12 +1633,39 @@
         .products-1 img{
             width: 100%;
         }
+        .contain{
+              
+            width: 1800px;
+          
+           
+        }
+        .logo .img{
+         margin-left: 8em;
+        }
+        .row{
+            width: 1700px;
+              
+           }
 
     }
     @media only screen and (min-width:1960px) {
         .slider-3 .slide1-img2{
             width: 1350px;
         }
+        .row{
+            width: 1800px;
+              
+           }
+           .contain{
+              
+               width: 1900px;
+             
+              
+           }
+           .logo .img{
+            margin-left: 8em;
+           }
+
     }
     @media only screen and (max-width:1250px) {
         .slider-3 .slide1-img2{
