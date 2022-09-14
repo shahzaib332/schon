@@ -1400,21 +1400,14 @@ position: relative;
         
 
         .contain{
-            width: auto;
+            width: 1350;
         }
         .row{
-            width: auto;
+            width: 1300;
 
 
-       }
-       .user-icon {
-        margin-left: -3.5em;
        
-
-       }
-       .heart-icon {
-        margin-left: -2.5em;
-       
+      
 
        }
        .card .image{
@@ -1481,10 +1474,10 @@ position: relative;
     }
    
     .contain{
-        width: auto;
+        width: 1500px;
     }
     .row{
-        width: auto;
+        width: 1500px;
     }
     .midcontainer{
         margin-left:4em;
@@ -1533,10 +1526,10 @@ position: relative;
        @media only screen and (min-width:1768px) {
 
         .contain{
-            width: auto;
+            width: 1600px;
         }
         .row{
-            width: auto;
+            width: 1600px;
         }
 
         .slide1-img{
@@ -1605,10 +1598,10 @@ position: relative;
         
         @media only screen and(min-width:1800px){
             .row{
-                width: auto;
+                width: 1700px;
             }
             .contain{
-                width: auto;
+                width:1700px;
             }
             
             .slider-3 .c2{
@@ -1631,13 +1624,9 @@ position: relative;
 
         
     }
-    @media only screen and(min-width:1900px){
-        .slider-3 .slide1-img2{
-            display: none;
+    
 
-        }
-
-    }
+   
         
 
        
