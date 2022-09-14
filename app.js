@@ -25,7 +25,7 @@ prev.addEventListener('click', function() {
   direction=1;
    
   slider.style.transform = 'translate(30%)';  
-  slider.style.justifyContent = 'padding-left(5em)';
+  
  
   
 });
