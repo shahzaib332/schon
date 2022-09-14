@@ -1637,8 +1637,99 @@
             width: 1350px;
         }
     }
+    @media only screen and (max-width:1250px) {
+        .slider-3 .slide1-img2{
+            width: 750px;
+        }
+        .card{
+            width: 330px;
+        }
+        .card img{
+            width: 100%;
+        }
+        .products-1{
+            width: 280px;
+        }
+        .products-1 img{
+            width: 100%;
+        }
+        .row{
+            width: 1200px;
+              
+           }
+           .contain{
+              
+               width: 1200px;
+              
+               
+              
+           }
+           .slider-3 .c2{
+            margin-left: 22em;
+           }
+           .holder .carditems{
+            margin-top: -15em;
+            margin-left: 8em;
+           
+        }
+        .holder .carditems3{
+         margin-top: -15em;
+         margin-left: 10em;
+        }
+        .card h1{
+            margin-left: 0.5em;
+        }
+        .tabdiv {
+            margin: 60px 0 0 0px;
 
+    }
+    .arrowbtn{
+        left: 72em;
+    }
+    .page1{
+        margin-left: -9px;
+    }
+}
+   
 
+@media only screen and (max-width:1200px) {
+    .slider-3 .slide1-img2{
+        width: 650px;
+
+    }
+    .slider-3 .slide1-img{
+        width: 200px;
+        
+    }
+    .slider-3 .slide1-img1{
+        width: 200px;
+        
+    }
+    .slider-3 .c2{
+        margin-left: 12em;
+       }
+       .slider-3 .c2 h1{
+       font-size: 50px;
+       margin-left: 1em;
+       }
+       .row{
+        width: 1100px;
+          
+       }
+       .contain{
+          
+           width: 1100px;
+          
+           
+          
+       }
+       .navlink, li {
+        font-size: 14px;
+       }
+       .homeul li{
+        font-size: 14px;
+       }
+}
 
 
    
